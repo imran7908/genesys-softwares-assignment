@@ -1,17 +1,5 @@
-import Image from "next/image";
-import localFont from "next/font/local";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import { act_of_rejection } from "@/utils/fonts";
 
 export default function Home() {
-  return <div>Hello World</div>;
+  return <div className={`${act_of_rejection.className}`}>Hello World</div>;
 }
