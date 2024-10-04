@@ -1,4 +1,4 @@
-import { Bogo, Hero } from "@/components/home";
+import { Bogo, Collection, Hero } from "@/components/home";
 import { act_of_rejection } from "@/utils/fonts";
 
 export default function Home() {
@@ -6,6 +6,7 @@ export default function Home() {
     <div className={`${act_of_rejection.className}`}>
       <Hero />
       <Bogo />
+      <Collection />
     </div>
   );
 }
