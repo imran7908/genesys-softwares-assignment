@@ -1,4 +1,4 @@
-import { Bogo, Collection, Hero, Quote } from "@/components/home";
+import { Bogo, Collection, Footer, Hero, Quote } from "@/components/home";
 import { act_of_rejection } from "@/utils/fonts";
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
       <Bogo />
       <Collection />
       <Quote />
+      <Footer />
     </div>
   );
 }
