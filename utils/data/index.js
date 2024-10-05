@@ -87,3 +87,21 @@ export const capsData = [
     originalPrice: "34.95",
   },
 ];
+
+export const serviceLinks = [
+  { url: "#", text: "About Us" },
+  { url: "#", text: "Search" },
+  { url: "#", text: "Privacy Policy" },
+  { url: "#", text: "Contact Us" },
+  { url: "#", text: "Terms of Service" },
+  { url: "#", text: "Refund policy" },
+  { url: "#", text: "Track Order" },
+];
+
+export const productLinks = [
+  { url: "#", text: "Featured products" },
+  { url: "#", text: "Bestseller" },
+  { url: "#", text: "Latest product" },
+  { url: "#", text: "All collections" },
+  { url: "#", text: "All products" },
+];

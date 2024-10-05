@@ -16,7 +16,7 @@ export function Hero() {
           </div>
 
           <h1
-            className={`${montserrat.className} font-extrabold text-white text-[35px] md:text-[44px] xl:text-[72px] 3xl:text-[116px] leading-none`}
+            className={`${montserrat.className} font-extrabold text-white text-[35px] md:text-[44px] xl:text-[72px] 3xl:text-[116px] leading-none tracking-[0.05em]`}
           >
             VTMERCH
           </h1>
