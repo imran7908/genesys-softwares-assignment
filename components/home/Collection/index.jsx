@@ -1,10 +1,10 @@
-import { montserrat } from "@/utils/fonts";
+import { inter, montserrat } from "@/utils/fonts";
 import Image from "next/image";
 
 export function Collection() {
   return (
     <section
-      className={`${montserrat.className} flex flex-col space-y-[24px] md:space-y-0 items-center md:items-start md:flex-row-reverse bg-black-3 px-[16px] md:px-[32px] lg:px-[64px] xl:px-[120px] py-[32px] md:py-[48px] lg:py-[60px] xl:py-[72px] 2xl:py-[90px] leading-none`}
+      className={`${montserrat.className} flex flex-col space-y-[24px] md:space-y-0 items-center md:items-start md:flex-row-reverse bg-black-3 px-[16px] md:px-[32px] lg:px-[64px] xl:px-[120px] py-[32px] md:py-[48px] lg:py-[150px] leading-none`}
     >
       <div className="relative w-full max-w-[500px] lg:max-w-[798px] aspect-[798/588] md:w-1/2 md:-mt-[32px] xl:-mt-[48px]">
         <Image src="/assets/images/books.png" fill alt="Books" />
@@ -20,7 +20,9 @@ export function Collection() {
         <h2 className="text-[#DE2A2F] font-bold text-[26px] md:text-[36px] lg:text-[44px] xl:text-[56px] 2xl:text-[70px] pb-4">
           Collection
         </h2>
-        <button className="rounded-xl flex items-center gap-2 uppercase px-[24px] py-[16px] bg-white  text-[12px] xl:text-[16px] w-fit font-medium">
+        <button
+          className={`${inter.className} rounded-xl flex items-center gap-2 uppercase px-[24px] py-[16px] bg-white text-[12px] xl:text-[16px] w-fit font-medium`}
+        >
           <span>Shop Now</span>
           <Image
             src="/assets/icons/right-arrow.svg"
