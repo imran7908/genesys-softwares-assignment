@@ -12,7 +12,7 @@ export function Collection() {
 
       <div className="flex flex-col uppercase space-y-2 xl:space-y-3 2xl:space-y-6 w-[80%] md:w-1/2">
         <h3 className="text-white font-medium text-[20px] md:text-[28px] lg:text-[36px] 2xl:text-[49px]">
-          Patrick Bet-David's
+          {`Patrick Bet-David's`}
         </h3>
         <h2 className="text-[#DE2A2F] font-bold text-[26px] md:text-[36px] lg:text-[44px] xl:text-[56px] 2xl:text-[70px]">
           Signed
